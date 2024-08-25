@@ -1,0 +1,83 @@
+.login-container{
+   height: 100vh;
+   width: 100vw;
+    
+}
+
+.nav-container{
+    background-color: #25262B;
+    height: 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+    width: 100vw;
+    color:#ffffff;
+}
+
+.login-card-container{
+    background-color: #25262B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.login-card{
+    width: 460px;
+    height: 312px;
+    border-radius: 17px;
+    border:1px;
+    background: linear-gradient(138.97deg, #111214 5.16%, #121212 105.18%);
+    border: 1px solid var(--Border-1, #343A40);
+    Padding : 24px, 40px, 40px, 40px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    color:#ffffff;
+}
+
+
+
+  .main-heading{
+    
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    text-align: center;
+
+  }
+  .google-sign{
+    width: 250px;
+    height:  40px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: transparent;
+    opacity: 0px;
+    border: 1px solid #707172;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    padding: 4px;
+    margin: 10px;
+
+  }
+
+  .google-icon{
+    color:#ffffff;
+  }
+
+  .account-button{
+    height: 40px;
+    width:200px;
+    background-image: linear-gradient(#9ac4f7, #1153d7);
+    color:#ffffff;
+    border-radius: 4px;
+    border:0px;
+    margin-top: 20px;
+  }
